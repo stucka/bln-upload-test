@@ -1,0 +1,11 @@
+name: Example action
+jobs:
+  job:
+    name: Upload directory
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Upload folder to biglocalnews.org
+        uses: biglocalnews/upload-files@v2
