@@ -1,17 +1,16 @@
 name: Testing and distribution
 on:
-  workflow_dispatch:
   push:
   pull_request:
+  workflow_dispatch:
 
-
-name: This is a test!
 jobs:
-  job:
-    name: Upload directory
+  test-something:
+    name: Test something
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - id: checkout
+        name: Checkout
         uses: actions/checkout@v3
 
       - name: Upload folder to biglocalnews.org
