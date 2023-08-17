@@ -1,3 +1,10 @@
+name: Testing and distribution
+on:
+  workflow_dispatch:
+  push:
+  pull_request:
+
+
 name: Example action
 jobs:
   job:
