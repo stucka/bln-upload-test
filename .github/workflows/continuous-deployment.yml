@@ -11,5 +11,6 @@ jobs:
     steps:
 
       - name: Upload folder to biglocalnews.org
-        uses: biglocalnews/upload-files@3
+        uses: biglocalnews/upload-files@v3
+
 
