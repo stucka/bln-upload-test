@@ -5,7 +5,7 @@ on:
   pull_request:
 
 
-name: Example action
+name: This is a test!
 jobs:
   job:
     name: Upload directory
